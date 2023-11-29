@@ -1,6 +1,5 @@
 import { selectors, textFields, buttons } from '../support/constants.js';
 
-// TODO: CICD
 // TODO: README
 
 describe('purchase gift vouchers', () => {

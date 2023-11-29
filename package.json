@@ -2,7 +2,8 @@
   "name": "salon-giftcard",
   "version": "1.0.0",
   "devDependencies": {
-    "cypress": "*"
+    "cypress": "*",
+    "cypress-mochawesome-reporter": "^3.7.0"
   },
   "dependencies": {
     "support": "^1.1.4"
