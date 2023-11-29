@@ -1,7 +1,5 @@
 import { selectors, textFields, buttons } from '../support/constants.js';
 
-// TODO: README
-
 describe('purchase gift vouchers', () => {
   beforeEach(() => {
     cy.visit('https://gift-cards.phorest.com/salons/demous');

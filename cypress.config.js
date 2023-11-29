@@ -7,9 +7,7 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     defaultCommandTimeout: 5000,
     setupNodeEvents(on, config) {
-
       require('cypress-mochawesome-reporter/plugin')(on);
-
     },
   },
   reporter: 'cypress-mochawesome-reporter'
