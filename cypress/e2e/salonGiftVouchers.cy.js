@@ -59,7 +59,7 @@ describe('purchase gift vouchers', () => {
     cy.get(selectors.paymentStatusText).should('have.text', 'Payment accepted, thank you!');
   });
 
-  it('users can purchase $50 gift voucher for themselves', () => {
+  it('users can purchase $50 gift voucher for someone else', () => {
     cy.get('#option50').check();
     cy.get(selectors.sendVoucherToSomeoneElseTab).click();
     cy.get(textFields.purchaserEmailTextField).type('test@test.com');
